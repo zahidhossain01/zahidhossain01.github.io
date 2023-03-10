@@ -1,24 +1,43 @@
+html {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-decoration: underline wavy;
+}
+
 #testheader {
     color: hotpink;
 }
 
+#main-image {
+    width: 85%;
+    border: 0.5em solid;
+    border-color: blueviolet;
+    border-radius: 1em;
+    margin-bottom: 10px;
+}
 
-/*SCROLLBAR*/
-::-webkit-scrollbar {
-    width: 10px;
-    background-color: #29B14D;
+.info {
+    color: green;
 }
-::-webkit-scrollbar-button {
-    background-color: #7BC10F;
+
+.info > h3 {
+    color: red;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-/*
-::-webkit-scrollbar-track {
-    
+
+.info > p {
+    margin-top: 1px;
+    margin-bottom: 20px;
 }
-::-webkit-scrollbar-track-piece {
-    
+
+a {
+    color: goldenrod;
 }
-*/
-::-webkit-scrollbar-thumb {
-    background-color: #FF8230;
+
+a:hover {
+    color: green;
 }
